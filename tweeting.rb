@@ -4,7 +4,7 @@ client = Twitter::REST::Client.new do |config|
   config.consumer_key        = "F0HIo849Vlz4PkYARNKPRAaY1"
   config.consumer_secret     = "aRGQUGrWgCU5FFRdv22425e8g1PIUi8YRjhtdxHtCSxOewhdJb"
   config.access_token        = "3334758579-4GpNdB4Bg2qbJntppDMlswbAQI0XejZlkeGY929"
-  config.access_token_secret = "69nFi6sI0wdjBslTXi6Fu3WnOELAtVJ6I0teIYbuCPecy"
+  config.access_token_secret = "****"
 end
 
 if File.exists?("/sys/bus/w1/devices/28-000004e3dda7/w1_slave")
